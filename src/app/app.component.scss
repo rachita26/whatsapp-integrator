@@ -1,0 +1,48 @@
+.container-fluid {
+    width: 100%;
+    height: 100%;
+    // box-shadow: 5px 5px 5px grey;
+    // top: 10%;
+    // left: 31%;
+    position: absolute;
+    padding: 0px !important;
+    // border: 1px solid black;
+}
+
+.topbar {
+    background-color: #1ebea5;
+    height: 62px;
+    text-align: center;
+}
+.titleText {
+    padding: 10px;
+    margin: 0px;
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 500;
+}
+.dataPanel {
+    width: 20rem;
+    margin: auto;
+}
+.pd0 {
+    padding: 0 !important;
+}
+.explainText {
+    text-align: center;
+    margin: 2rem;
+}
+.startBtn {
+    width: 10rem;
+    margin-left: 25%;
+    margin-top: 8%;
+    margin-bottom: 3rem;
+}
+.iconClass {
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+.container-download{
+    text-align: center;
+    padding: 20px;
+}

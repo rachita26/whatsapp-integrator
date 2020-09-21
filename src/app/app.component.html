@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <div class="topbar">
+    <p class="titleText">WhatsApp Chat</p>
+  </div>
+  <form>
+    <div class="explainText">
+      Just enter the country code, mobile number and your message(optional) to start chatting on WhatsApp without having
+      to save the contact.
+    </div>
+
+    <div class="input-group mb-3 dataPanel">
+      <div class="col-md-4 pd0">
+        <input type="number" class="form-control" placeholder="Code" [(ngModel)]="code" name="code">
+      </div>
+      <div class="col-md-8 pd0">
+        <input type="number" class="form-control" placeholder="Mobile Number" [(ngModel)]="phNumber" name="phNumber">
+      </div>
+    </div>
+
+    <div class="input-group mb-3 dataPanel">
+      <input type="text" class="form-control" placeholder="Enter your message" [(ngModel)]="message" name="message">
+    </div>
+
+    <div class="dataPanel">
+      <button class="btn btn-success startBtn" (click)="startChat()"><img src="../assets/img/whatsapp.png"
+          class="iconClass">Start Chat</button>
+    </div>
+  </form>
+
+  <hr />
+  <div class="container-download">
+    Don't have WhatsApp yet?
+    <br />
+    <a href="https://www.whatsapp.com/download" target="_blank" class="download">Download</a>
+  </div>
+
+</div>
